@@ -1,0 +1,222 @@
+
+@media(max-width:1024px){
+    .menuPrincipal{
+        background-color:  rgb(155, 218, 163);
+        display: flex;
+    }
+}
+
+a.a{ 
+        
+    justify-content: space-between;
+    font-size: 24px;}
+
+@media(max-width:952px){
+    .Gori{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        display: block;
+        margin: 0%;
+
+        }
+    
+    .menuPrincipal{
+        background-color: darkgrey;
+        display: flex;
+        justify-content: center;
+
+
+}
+    .containerCaja{
+
+    display: flex;
+    flex-direction: block;
+    flex-direction: column;
+    padding-left: 20%;
+    margin-left: -1.3cm;
+}
+
+    a.a{ 
+        
+    justify-content: space-between;
+    font-size: 26px;}
+
+    .h1{  
+    font-size: 26px;
+    padding-left: 40%;
+    display: flex;
+}
+
+}
+    .img{
+    width: 300px;
+    height: 390px;
+    transition: all 1seg;
+}
+.parrafo{
+    display: flex;
+    justify-content: center;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+@media(max-width:440px){
+
+    .Gori{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 50%;
+        display: block;
+        margin: 0%;
+        
+    }
+
+    .menuPrincipal{     
+        background-color: rgb(235, 242, 136);
+        display: flex;
+        justify-items: center;
+        color: black;
+        
+
+    }
+    a.a{ 
+        
+        justify-content: space-between;
+        font-size: 16px;
+
+
+    }
+
+    .containerCaja{
+
+        display: flex;
+        flex-direction: block;
+        flex-direction: column;
+        padding-left: 20%;
+        margin-left: -1.3cm;
+    }
+
+    .containerDos{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .headerCuerpo1{
+        font-size: 35px;
+        padding-right: 17cm;
+        margin: 50px;
+    }
+    
+    .img{
+        width: 220px;
+        height: 390px;
+        transition: all 1seg;
+    }
+    .h1{
+        font-size: 20px;
+        padding-left: -20%;
+        display: flex;
+        background-color: rgb(251, 255, 247);
+        justify-content: left;
+    }
+    .h2{
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+
+    }
+    .h4{
+        font-size: 10px;
+        padding-left: -20%;
+        display: flex;
+        
+    }
+    .parrafo{
+        display: flex;
+        justify-content: center;
+        margin-left: 1cm;
+        margin-right: 1cm;
+    }
+    .compra{
+        display: flex;
+        justify-content: center;
+        margin-left: 1cm;
+        margin-right: 1cm;
+    }
+    
+}
+@media(min-width:1100px){
+    .contenedorEstilo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .miEstilo{
+    width: 1500px;
+    padding: 10px;
+    margin: 10px; 
+    border: none;
+    margin-left: -4cm;
+
+
+}
+    .miEstilo.row{
+    border: 0cm;
+    padding: 10px;
+    margin: 10px;
+}
+}
+
+@media(min-width:768px){
+    .contenedorEstilo{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .miEstilo{
+        font-size: 20px;
+    }
+    .containerDos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .contendorP{
+        visibility: hidden;
+    }
+
+}
+@media(max-width:440px){
+    .contenedorEstilo{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+    }
+    .contendorP{
+        visibility: hidden;
+    }
+    .Contp{
+        visibility: hidden;
+    }
+    .containerDos{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .containerDos{
+        flex-wrap: wrap;
+        font-size: 15px;
+    }
+    .info1{
+        font-size: 15px;
+       
+    }
+    .info2{
+        visibility: hidden;
+    }
+}

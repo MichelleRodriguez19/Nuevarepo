@@ -1,0 +1,22 @@
+.containerPrincipal{
+    display: grid;
+    grid-template-columns: repeat(5,1);
+    grid-template-rows: 400px 1600px auto 100px 100px ;
+    grid-template-areas: "header        header        header        header        header"
+                         "menuPrincipal menuPrincipal menuPrincipal menuPrincipal menuPrincipal "
+                         "main          main          main          main          main"
+                         "containerCaja containerCaja containerCaja containerCaja containerCaja"
+                         "containerDos  main          main          main           main"
+                         "footer        footer        footer        footer        footer ";
+
+}
+.containerCaja{ 
+    display: grid;
+    grid-template-columns: 20% 0.5fr 20% 0.2fr 5%;
+    grid-template-rows: auto;
+    
+    
+}
+.containerDos{
+    display: flex;
+}

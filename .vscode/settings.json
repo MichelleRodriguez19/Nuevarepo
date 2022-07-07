@@ -1,0 +1,24 @@
+{
+    "liveSassCompile.settings.autoprefix": [
+
+    
+    ],
+    "liveSassCompile.settings.showAnnouncements": null,
+    "liveSassCompile.settings.rootIsWorkspace": null,
+    "liveSassCompile.settings.includeItems": [
+    
+    ],
+    "liveSassCompile.settings.generateMap": false,
+    "liveSassCompile.settings.formats": [
+        
+
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "/assets/css/"
+            "savePathSegmentKeys": null,
+            "savePathReplaceSegmentsWith": null
+        }
+    ]
+
+}
