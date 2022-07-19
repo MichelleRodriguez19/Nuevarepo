@@ -5,7 +5,21 @@
 @import "container";
 @import "reset";
 @import "video";
-@import "footer"
+@import "footer";
+@import "variable";
+
+.btn{
+    padding: map-get($btn , padding);
+    border: map-get($btn , border );
+    border-radius: map-get($btn: radio);
+   @include propiedades(100px,auto, #ffff )
+
+}
 
 
+@mixin propiedades ($ancho,$alto,colorLetra) {
+    width: $ancho;
+    heigh: $alto;
+    color: $colorLetra;
+}
 

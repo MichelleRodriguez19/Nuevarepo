@@ -1,0 +1,25 @@
+
+
+$btn:(
+    padding:10px 15px,
+    border:0,
+    radio:10px, 
+);
+
+
+
+
+$colores:(
+    $colorPrimario:rgb(32, 206, 37),
+    $colorSecundario:rgb(28, 90, 205),
+    
+);
+
+@each $key , $var in $colores {
+    .btn-#{key}{
+        @extend .btn;
+        background-color: $colores;
+
+    }
+    
+}
